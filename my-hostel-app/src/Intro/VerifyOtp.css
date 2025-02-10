@@ -1,0 +1,62 @@
+.forgot-password-container {
+    max-width: 400px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+  }
+  
+  h1 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+    color: #333; /* Header color */
+  }
+  
+  .form-container {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 10px; /* Space between inputs */
+  }
+  
+  .input-field {
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Increase font size */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s; /* Smooth transition */
+  }
+  
+  .input-field:focus {
+    border-color: #4caf50; /* Green border on focus */
+  }
+  
+  .submit-button {
+    padding: 10px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text color */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .error-message {
+    color: red; /* Red color for errors */
+    text-align: center; /* Center the error message */
+    margin-top: 10px; /* Space above the error message */
+  }
+  
+  .success-message {
+    color: green; /* Green color for success messages */
+    text-align: center; /* Center the success message */
+    margin-top: 10px; /* Space above the success message */
+  }
+  

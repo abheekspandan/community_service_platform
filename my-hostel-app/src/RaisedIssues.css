@@ -1,0 +1,38 @@
+/* src/RaisedIssues.css */
+.raised-issues {
+  position: relative; /* Allows for positioning of the logout button */
+}
+
+.raised-issues .delete-button {
+  background-color: transparent; /* No background color */
+  border: none; /* No border */
+  border-radius: 50%; /* Make it circular */
+  width: 40px; /* Width of the button */
+  height: 40px; /* Height of the button */
+  display: flex; /* Center the icon */
+  align-items: center; /* Vertically center the icon */
+  justify-content: center; /* Horizontally center the icon */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.raised-issues .delete-button i {
+  color: red; /* Color of the icon */
+  font-size: 20px; /* Size of the icon */
+}
+
+.raised-issues .delete-button:hover {
+  background-color: rgba(255, 0, 0, 0.1); /* Light red background on hover */
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+}

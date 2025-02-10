@@ -1,0 +1,68 @@
+/* src/styles.css */
+.main-page {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 80px;  /* Ensure button maintains minimum width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-align: center;  /* Ensure text is centered */
+}
+
+/* Optional: For better responsiveness on smaller screens */
+@media (max-width: 600px) {
+    .logout-button {
+        padding: 10px 15px; /* Adjust padding for small screens */
+        font-size: 14px;    /* Adjust font size to fit better */
+    }
+}
+
+  
+  .logout-button:hover {
+    background-color: #ff0000;
+  }
+  .issue-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .issue-card.voted {
+    background-color: #d3ffd3; /* Light green background for voted issues */
+  }
+  
+  .vote-button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .vote-button:disabled {
+    background-color: #ccc; /* Grey out the button when disabled */
+    cursor: not-allowed;
+  }
